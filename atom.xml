@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxiang365.github.io</id>
     <title>沙度TALK</title>
-    <updated>2020-09-22T16:38:07.158Z</updated>
+    <updated>2020-10-24T04:19:14.688Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxiang365.github.io"/>
     <link rel="self" href="https://xxiang365.github.io/atom.xml"/>
@@ -10,6 +10,101 @@
     <logo>https://xxiang365.github.io/images/avatar.png</logo>
     <icon>https://xxiang365.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 沙度TALK</rights>
+    <entry>
+        <title type="html"><![CDATA[人人都会的博客搭建教程-Gridea]]></title>
+        <id>https://xxiang365.github.io/post/gridea_build/</id>
+        <link href="https://xxiang365.github.io/post/gridea_build/">
+        </link>
+        <updated>2020-10-24T03:56:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>Created: Sep 17, 2020 12:33 AM<br>
+Tags: Blog, Gridea</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Created: Sep 17, 2020 12:33 AM<br>
+Tags: Blog, Gridea</p>
+<!-- more -->
+<h1 id="前言">前言</h1>
+<p>有时候博客不需要一些花里胡哨的东西，最纯粹的博客可以简化为一个创作平台+一个评论系统（可选）。</p>
+<p>Gridea是一种纯静态网站生成工具，非常适合不想麻烦折腾后端服务器，和后期维护的用户，类似的工具有Hugo，Hexo等，可以让注意力更加集中在内容创作上，非常适合我的需求。</p>
+<!-- more -->
+<h1 id="一-准备工作">一、准备工作</h1>
+<ul>
+<li>Github账户，Github注册地址为：</li>
+</ul>
+<p><a href="https://github.com/">Build software better, together</a></p>
+<ul>
+<li>官网下载Gridea安装包，Gridea官网地址为：</li>
+</ul>
+<p><a href="https://gridea.dev/">Gridea | 一个静态博客写作客户端</a></p>
+<ul>
+<li>注册Valine，实现评论功能</li>
+</ul>
+<p><a href="https://valine.js.org/">介绍 | Valine</a></p>
+<ul>
+<li>域名注册（optional）+域名解析（optional）</li>
+</ul>
+<p><a href="https://freenom.com/">Freenom - A Name for Everyone</a></p>
+<p><a href="https://www.cloudflare.com/">Cloudflare - The Web Performance &amp; Security Company | Cloudflare</a></p>
+<!-- more -->
+<h1 id="二-具体操作">二、具体操作</h1>
+<h3 id="1-以github为博客的后端">1, 以Github为博客的“后端”</h3>
+<ul>
+<li>注册自己的github账号，注册成功后，新建仓库，用来存储网站的代码。<br>
+<img src="https://xxiang365.github.io/post-images/1603511927320.png" alt="" loading="lazy"></li>
+<li>申请 Personal access token，这样 Gridea 才能有权限将网站文件推送到你的仓库中。<br>
+<img src="https://xxiang365.github.io/post-images/1603511942590.png" alt="" loading="lazy"><br>
+再依次选择 「Developer settings」→ 「Personal access tokens」→ 「Generate new token」<br>
+<img src="https://xxiang365.github.io/post-images/1603511955847.png" alt="" loading="lazy"></li>
+<li>token 的权限我们只选择 Repo，申请成功，会给你一串数字+字母的信息，这个就是 Token。<br>
+<img src="https://xxiang365.github.io/post-images/1603512035304.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="2以gridea为本地前端简单自由又安全">2，以Gridea为本地前端，简单自由又安全</h3>
+<ul>
+<li>安装好Gridea后，配置 Gridea，来连接 Github<br>
+<img src="https://xxiang365.github.io/post-images/1603512088703.png" alt="" loading="lazy"></li>
+<li>填写上面的信息后，点击 「检测远程连接」 按钮，如果提示 「远程连接成功」 那就ok啦</li>
+</ul>
+<h3 id="3换成自己喜欢的域名optional">3，换成自己喜欢的域名（Optional）</h3>
+<ul>
+<li>由于不是本篇的重点，就简单介绍一下，可以在freenom注册免费域名后，将注册域名的Nameservers设置为Cloudflare的dns解析服务器，需要等待一段时间生效。<br>
+<img src="https://xxiang365.github.io/post-images/1603512111282.png" alt="" loading="lazy"></li>
+<li>在Cloudflare中可以找到注册的域名，在DNS选项中添加一个CNAME解析，Content填写YourUserName.github.io即可。<br>
+<img src="https://xxiang365.github.io/post-images/1603512125341.png" alt="" loading="lazy"></li>
+<li>想要HTTPS访问，需要在Cloudflare和Github中设置SSL<br>
+<img src="https://xxiang365.github.io/post-images/1603512142377.png" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603512156920.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="3valine评论系统">3，Valine评论系统</h3>
+<ul>
+<li>选择官网中的Pure主题（主题自带Valine评论系统前端的，并且可以设置暗色主题）</li>
+</ul>
+<p><a href="https://github.com/imhanjie/gridea-theme-pure">imhanjie/gridea-theme-pure</a></p>
+<ul>
+<li>
+<p>Valine评论系统前端包含在Gridea的主题-自定义配置中，只需要填入APP_ID和APP_KEY即可，APP_ID和APP_KEY是通过Valine云提供的评论后端<br>
+<img src="https://xxiang365.github.io/post-images/1603512172648.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>Valine云提供的评论后端<br>
+<img src="https://xxiang365.github.io/post-images/1603512182462.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>手动在leancloud应用-存储中添加Comment，网友的评论可以在这里管理<br>
+<img src="https://xxiang365.github.io/post-images/1603512201498.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<!-- more -->
+<h1 id="三-参考致谢">三、参考致谢</h1>
+<blockquote>
+<p><a href="https://www.haitao127.com/post/gridea-quick-start/">https://www.haitao127.com/post/gridea-quick-start/</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://kveln.cn/post/qE678A4ce/">https://kveln.cn/post/qE678A4ce/</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://deserts.io/diy-a-comment-system/">https://deserts.io/diy-a-comment-system/</a></p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://xxiang365.github.io/post/hello-gridea/</id>
