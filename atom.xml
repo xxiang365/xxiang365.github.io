@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxiang365.github.io</id>
     <title>沙度Talk</title>
-    <updated>2020-10-24T05:02:08.013Z</updated>
+    <updated>2020-10-26T14:12:00.874Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxiang365.github.io"/>
     <link rel="self" href="https://xxiang365.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://xxiang365.github.io/images/avatar.png</logo>
     <icon>https://xxiang365.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 沙度Talk</rights>
+    <entry>
+        <title type="html"><![CDATA[IOS 下载shadowrocket的方法]]></title>
+        <id>https://xxiang365.github.io/post/ios_download_sdr/</id>
+        <link href="https://xxiang365.github.io/post/ios_download_sdr/">
+        </link>
+        <updated>2020-10-26T13:53:03.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1退出自己的账号">1，退出自己的账号</h1>
+<p>在iphone或者ipad中的app应用商店，也就是app store中点击右上角圆形图标，拉到最下面，看到退出登陆，退出自己的Apple ID<br>
+<img src="https://xxiang365.github.io/post-images/1603720898550.jpg" alt="" loading="lazy"></p>
+<h1 id="2登陆美区账号">2，登陆美区账号</h1>
+<p>这里有一个需要注意的问题就是登陆美区账号时，会被询问是否升级安全设置，一定不能升级，不然会被强制开启二次验证。<br>
+输入美区账户和密码，会看到如图所示的提醒<br>
+<img src="https://xxiang365.github.io/post-images/1603721396076.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721401242.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721415828.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721423976.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721433603.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[人人都会的博客搭建教程-Gridea]]></title>
         <id>https://xxiang365.github.io/post/gridea_build/</id>
