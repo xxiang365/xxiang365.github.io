@@ -6,7 +6,7 @@
 
 <title>Markdown基本语法学习 | 沙度Talk</title>
 
-<link rel="shortcut icon" href="https://xxiang365.github.io/favicon.ico?v=1604237796878">
+<link rel="shortcut icon" href="https://xxiang365.github.io/favicon.ico?v=1604240349280">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://xxiang365.github.io/styles/main.css">
@@ -77,7 +77,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1604237796878" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1604240349280" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
             </form>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="post-content">
                     <h1 id="1-简单介绍">1, 简单介绍</h1>
-<p>Markdown是一种纯文本格式的标记语言，广泛适用于各种笔记类应用，可以提升文字编辑类的效率</p>
+<h2 id="markdown是一种纯文本格式的标记语言广泛适用于各种笔记类应用可以提升文字编辑类的效率">Markdown是一种纯文本格式的标记语言，广泛适用于各种笔记类应用，可以提升文字编辑类的效率</h2>
 <h1 id="2-常用到的简单语法">2, 常用到的简单语法</h1>
 <h2 id="21-各种级别的标题">2.1 各种级别的标题</h2>
 <p># 这是一级标题<br>
@@ -164,7 +164,6 @@
 </ul>
 </li>
 </ul>
-<hr>
 <p>- 一级无序列表<br>
 [][][]1. 二级有序列表<br>
 <strong>效果图：</strong></p>
@@ -175,7 +174,51 @@
 </ol>
 </li>
 </ul>
-<p>未完待续。。。</p>
+<h2 id="23-引用和网址">2.3 引用和网址</h2>
+<h3 id="231-应用">2.3.1 应用</h3>
+<p>在引用的文字前加&gt;即可，引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>
+&gt; 引用的内容<br>
+&gt; &gt; 重复引用<br>
+<strong>效果图：</strong></p>
+<blockquote>
+<p>引用的内容</p>
+<blockquote>
+<p>重复引用</p>
+</blockquote>
+</blockquote>
+<h3 id="232-网址">2.3.2 网址</h3>
+<p>[超链接名](超链接地址 &quot;超链接title&quot;)<br>
+title可加可不加<br>
+[沙度Talk](blog.shadow.tk &quot;沙度的博客地址&quot;)<br>
+<strong>效果图：</strong><br>
+<a href="blog.shadow.tk" title="沙度的博客地址">沙度Talk</a></p>
+<h2 id="24-代码">2.4 代码</h2>
+<p>单行代码：代码之间分别用一个反引号包起来<br>
+代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行<br>
+` Hello World!`<br>
+<strong>效果图：</strong></p>
+<p><code>Hello world!</code></p>
+<p>```<br>
+\    function fun(){<br>
+\         echo &quot;这是一句非常牛逼的代码&quot;;<br>
+\    }<br>
+\    fun();<br>
+```<br>
+<strong>效果图：</strong></p>
+<pre><code>    function fun(){
+         echo &quot;这是一句非常牛逼的代码&quot;;
+    }
+    fun();
+</code></pre>
+<h2 id="25-图片">2.5 图片</h2>
+<p>![图片alt](图片地址 ''图片title'')<br>
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p>
+<hr>
+<h1 id="3-reference">3 Reference</h1>
+<blockquote>
+<p>简书 https://www.jianshu.com/p/191d1e21f7ed</p>
+</blockquote>
 
                 </div>
             </article>
