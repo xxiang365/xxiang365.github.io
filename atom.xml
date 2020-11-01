@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxiang365.github.io</id>
     <title>沙度Talk</title>
-    <updated>2020-11-01T14:22:41.303Z</updated>
+    <updated>2020-11-01T16:34:44.658Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxiang365.github.io"/>
     <link rel="self" href="https://xxiang365.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://xxiang365.github.io/images/avatar.png</logo>
     <icon>https://xxiang365.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 沙度Talk</rights>
+    <entry>
+        <title type="html"><![CDATA[Android下载V2rayNG以及导入Vmess链接]]></title>
+        <id>https://xxiang365.github.io/post/android_tool/</id>
+        <link href="https://xxiang365.github.io/post/android_tool/">
+        </link>
+        <updated>2020-11-01T16:09:04.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="step1-下载并安装app">Step1: 下载并安装APP</h1>
+<p>安卓客户端可以使用V2rayNG<br>
+在github网址下载最新release版的安卓安装软件(apk格式的安装包)<br>
+#下载地址：<br>
+<a href="https://github.com/2dust/v2rayNG/releases" title="跳转V2rayNG的github下载网页">Android_V2rayNG github 网址</a></p>
+<h1 id="step2-导入服务端信息">Step2: 导入服务端信息</h1>
+<p><strong>打开app后，点击首页右上角的加号，可以看到有很多种方法导入配置信息，这里主要用到以下两种方法：</strong></p>
+<ul>
+<li>通过导入包含服务器信息的Vmess链接</li>
+<li>通过扫描包含服务端信息的二维码</li>
+</ul>
+<h1 id="step3-设置app">Step3: 设置app</h1>
+<p>导入完成后，还不能立即使用，原因是新版的app有个默认的选项和服务器端不一致，导致无法配置成功<br>
+需要修改一各地方：</p>
+<ul>
+<li>点红框中的按钮<br>
+<img src="https://xxiang365.github.io/post-images/1604248430156.jpeg" alt="" loading="lazy"></li>
+<li>更改红框中的选项false改为true<br>
+<img src="https://xxiang365.github.io/post-images/1604248437282.jpeg" alt="" loading="lazy"></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Markdown基本语法学习]]></title>
         <id>https://xxiang365.github.io/post/markdown/</id>
