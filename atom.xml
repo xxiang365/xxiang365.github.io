@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxiang365.github.io</id>
     <title>沙度Talk</title>
-    <updated>2020-11-01T16:51:13.769Z</updated>
+    <updated>2020-12-20T13:18:35.814Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxiang365.github.io"/>
     <link rel="self" href="https://xxiang365.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://xxiang365.github.io/images/avatar.png</logo>
     <icon>https://xxiang365.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 沙度Talk</rights>
+    <entry>
+        <title type="html"><![CDATA[Window使用v2rayN指南]]></title>
+        <id>https://xxiang365.github.io/post/opnNuzu19/</id>
+        <link href="https://xxiang365.github.io/post/opnNuzu19/">
+        </link>
+        <updated>2020-12-20T12:57:57.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>解压文件v2rayN-Core.zip到一个你记得住的路径，推荐C盘根目录<br>
+<img src="https://xxiang365.github.io/post-images/1608469478944.png" alt="" loading="lazy"></li>
+<li>在解压之后的文件中打开.exe文件<br>
+<img src="https://xxiang365.github.io/post-images/1608469607724.png" alt="" loading="lazy"></li>
+<li>从剪切板导入URL<br>
+<img src="https://xxiang365.github.io/post-images/1608469720906.png" alt="" loading="lazy"></li>
+<li>右键选中，设置为活动服务器<br>
+<img src="https://xxiang365.github.io/post-images/1608469944850.png" alt="" loading="lazy"></li>
+<li>设置开机启动<br>
+<img src="https://xxiang365.github.io/post-images/1608470083375.png" alt="" loading="lazy"></li>
+<li>设置智能代理模式<br>
+右键点击小托盘下的图标,<br>
+并且设置Http代理模式为PAC模式.<br>
+若有些网站不能上则选择  全局模式<br>
+（用完改回PAC）<br>
+Enjoy it!!!<br>
+全局模式：所有流量走代理<br>
+PAC模式：google，YouTube等黑名单的流量走代理，其余流量不走代理<br>
+<img src="https://xxiang365.github.io/post-images/1608470175117.png" alt="" loading="lazy"></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Android下载V2rayNG以及导入Vmess链接]]></title>
         <id>https://xxiang365.github.io/post/android_tool/</id>
