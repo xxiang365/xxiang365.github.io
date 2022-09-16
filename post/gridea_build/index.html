@@ -1,0 +1,267 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>人人都会的博客搭建教程-Gridea | 沙度 Space</title>
+
+<link rel="shortcut icon" href="https://xxiang365.github.io/favicon.ico?v=1663343363159">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://xxiang365.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            沙度 Space
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1663343363159" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    人人都会的博客搭建教程-Gridea
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-10-24 ·
+                    </time>
+                    
+                        <a href="https://xxiang365.github.io/tag/H4PqXy4SF/" class="post-tags">
+                            # Gridea
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>Created: Sep 17, 2020 12:33 AM<br>
+Tags: Blog, Gridea</p>
+<!-- more -->
+<h1 id="前言">前言</h1>
+<p>有时候博客不需要一些花里胡哨的东西，最纯粹的博客可以简化为一个创作平台+一个评论系统（可选）。</p>
+<p>Gridea是一种纯静态网站生成工具，非常适合不想麻烦折腾后端服务器，和后期维护的用户，类似的工具有Hugo，Hexo等，可以让注意力更加集中在内容创作上，非常适合我的需求。</p>
+<!-- more -->
+<h1 id="一-准备工作">一、准备工作</h1>
+<ul>
+<li>Github账户，Github注册地址为：</li>
+</ul>
+<p><a href="https://github.com/">Build software better, together</a></p>
+<ul>
+<li>官网下载Gridea安装包，Gridea官网地址为：</li>
+</ul>
+<p><a href="https://gridea.dev/">Gridea | 一个静态博客写作客户端</a></p>
+<ul>
+<li>注册Valine，实现评论功能</li>
+</ul>
+<p><a href="https://valine.js.org/">介绍 | Valine</a></p>
+<ul>
+<li>域名注册（optional）+域名解析（optional）</li>
+</ul>
+<p><a href="https://freenom.com/">Freenom - A Name for Everyone</a></p>
+<p><a href="https://www.cloudflare.com/">Cloudflare - The Web Performance &amp; Security Company | Cloudflare</a></p>
+<!-- more -->
+<h1 id="二-具体操作">二、具体操作</h1>
+<h3 id="1-以github为博客的后端">1, 以Github为博客的“后端”</h3>
+<ul>
+<li>注册自己的github账号，注册成功后，新建仓库，用来存储网站的代码。<br>
+<img src="https://xxiang365.github.io/post-images/1603511927320.png" alt="" loading="lazy"></li>
+<li>申请 Personal access token，这样 Gridea 才能有权限将网站文件推送到你的仓库中。<br>
+<img src="https://xxiang365.github.io/post-images/1603511942590.png" alt="" loading="lazy"><br>
+再依次选择 「Developer settings」→ 「Personal access tokens」→ 「Generate new token」<br>
+<img src="https://xxiang365.github.io/post-images/1603511955847.png" alt="" loading="lazy"></li>
+<li>token 的权限我们只选择 Repo，申请成功，会给你一串数字+字母的信息，这个就是 Token。<br>
+<img src="https://xxiang365.github.io/post-images/1603512035304.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="2以gridea为本地前端简单自由又安全">2，以Gridea为本地前端，简单自由又安全</h3>
+<ul>
+<li>安装好Gridea后，配置 Gridea，来连接 Github<br>
+<img src="https://xxiang365.github.io/post-images/1603512088703.png" alt="" loading="lazy"></li>
+<li>填写上面的信息后，点击 「检测远程连接」 按钮，如果提示 「远程连接成功」 那就ok啦</li>
+</ul>
+<h3 id="3换成自己喜欢的域名optional">3，换成自己喜欢的域名（Optional）</h3>
+<ul>
+<li>由于不是本篇的重点，就简单介绍一下，可以在freenom注册免费域名后，将注册域名的Nameservers设置为Cloudflare的dns解析服务器，需要等待一段时间生效。<br>
+<img src="https://xxiang365.github.io/post-images/1603512111282.png" alt="" loading="lazy"></li>
+<li>在Cloudflare中可以找到注册的域名，在DNS选项中添加一个CNAME解析，Content填写YourUserName.github.io即可。<br>
+<img src="https://xxiang365.github.io/post-images/1603512125341.png" alt="" loading="lazy"></li>
+<li>想要HTTPS访问，需要在Cloudflare和Github中设置SSL<br>
+<img src="https://xxiang365.github.io/post-images/1603512142377.png" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603512156920.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="3valine评论系统">3，Valine评论系统</h3>
+<ul>
+<li>选择官网中的Pure主题（主题自带Valine评论系统前端的，并且可以设置暗色主题）</li>
+</ul>
+<p><a href="https://github.com/imhanjie/gridea-theme-pure">imhanjie/gridea-theme-pure</a></p>
+<ul>
+<li>
+<p>Valine评论系统前端包含在Gridea的主题-自定义配置中，只需要填入APP_ID和APP_KEY即可，APP_ID和APP_KEY是通过Valine云提供的评论后端<br>
+<img src="https://xxiang365.github.io/post-images/1603512172648.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>Valine云提供的评论后端<br>
+<img src="https://xxiang365.github.io/post-images/1603512182462.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>手动在leancloud应用-存储中添加Comment，网友的评论可以在这里管理<br>
+<img src="https://xxiang365.github.io/post-images/1603512201498.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<!-- more -->
+<h1 id="三-参考致谢">三、参考致谢</h1>
+<blockquote>
+<p><a href="https://www.haitao127.com/post/gridea-quick-start/">https://www.haitao127.com/post/gridea-quick-start/</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://kveln.cn/post/qE678A4ce/">https://kveln.cn/post/qE678A4ce/</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://deserts.io/diy-a-comment-system/">https://deserts.io/diy-a-comment-system/</a></p>
+</blockquote>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+            <span id="/post/gridea_build/" class="leancloud_visitors" data-flag-title="人人都会的博客搭建教程-Gridea">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'aTIPbAU6y6M8sk9SWbrmD3AU-gzGzoHsz',
+		appKey: 'gWhs7QzT4buBBGtVDDGYtEkp',
+		avatar: 'retro',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Welcome！',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">多一度热爱！</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://xxiang365.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

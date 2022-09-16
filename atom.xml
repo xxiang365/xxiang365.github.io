@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xxiang365.github.io</id>
+    <title>沙度 Space</title>
+    <updated>2022-09-16T15:52:05.373Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://xxiang365.github.io"/>
+    <link rel="self" href="https://xxiang365.github.io/atom.xml"/>
+    <subtitle>多一度热爱！</subtitle>
+    <logo>https://xxiang365.github.io/images/avatar.png</logo>
+    <icon>https://xxiang365.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 沙度 Space</rights>
+    <entry>
+        <title type="html"><![CDATA[Window 装机工具网站]]></title>
+        <id>https://xxiang365.github.io/post/mstools/</id>
+        <link href="https://xxiang365.github.io/post/mstools/">
+        </link>
+        <updated>2022-09-16T15:31:03.000Z</updated>
+        <content type="html"><![CDATA[<p>#镜像篇<br>
+##网站：你好Windows<br>
+地址：https://hellowindows.cn<br>
+评语：涵盖从XP到WIN11，分类明细，访问速度快，提供电驴和磁力链接（BT）两种下载方式，提供下载工具，激活工具，楼主最常用的镜像下载网站</p>
+<p>##网站：UUP dump<br>
+地址：https://uupdump.net<br>
+评语：最大的特点是从 Windows 更新服务器下载，支持下载正式版，DEV ，Beta等不同通道的版本，原汁原味，新鲜速递</p>
+<p>##网站：系统之家<br>
+地址：https://www.xitongzhijia.net<br>
+评语：GHOST版系统镜像下载基地，雨林木风，深度技术，番茄花园等各家版本都有，非原版控必备，顺便说一下优缺点，GHOST版本优点是部署快，缺点是捆绑很多软件，可根据需求选择使用原版还是GHOST版</p>
+<p>#工具篇<br>
+##网站：优启通<br>
+地址：https://www.upe.net/download.html<br>
+评语：PE是系统预安装环境，用U盘做一个PE启动盘，以后安装和维护系统就无忧了，这个是楼主用过最好用的，其它像微PE什么的太多了，就不多推荐了</p>
+<p>##网站：Office Tool Plus<br>
+地址：https://otp.landian.vip/en-us/<br>
+评语：最简单好用的Office下载软件，无广告，只可用于下载Office 工具，不可用于激活</p>
+<p>#激活篇<br>
+##地址：http://webact.185.hk/sharedkey.php<br>
+评语：密匙有效性和激活次数一目了然。缺点：提供的版本不多，主要用来激活10/11，特别提醒，10和11的MAK是通用的哦</p>
+<p>##网站: 云萌Windows10+激活工具<br>
+地址：https://cmwtat.cloudmoe.com/cn.html#<br>
+评语：云萌Windows10+激活工具，一键激活，开源透明且安全</p>
+<p>##激活工具：HEU_KMS_Activator<br>
+地址：https://aichunjing.lanzoui.com/b710887<br>
+评语：支持多种版本，多种方式激活，用激活工具就是省时省力</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows使用v2rayN指南]]></title>
+        <id>https://xxiang365.github.io/post/opnNuzu19/</id>
+        <link href="https://xxiang365.github.io/post/opnNuzu19/">
+        </link>
+        <updated>2020-12-20T12:57:57.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>解压文件v2rayN-Core.zip到一个你记得住的路径，推荐C盘根目录<br>
+<img src="https://xxiang365.github.io/post-images/1608469478944.png" alt="" loading="lazy"></li>
+<li>在解压之后的文件中打开.exe文件<br>
+<img src="https://xxiang365.github.io/post-images/1608469607724.png" alt="" loading="lazy"></li>
+<li>从剪切板导入URL<br>
+<img src="https://xxiang365.github.io/post-images/1608469720906.png" alt="" loading="lazy"></li>
+<li>右键选中，设置为活动服务器<br>
+<img src="https://xxiang365.github.io/post-images/1608469944850.png" alt="" loading="lazy"></li>
+<li>设置开机启动<br>
+<img src="https://xxiang365.github.io/post-images/1608470083375.png" alt="" loading="lazy"></li>
+<li>设置智能代理模式<br>
+右键点击小托盘下的图标,<br>
+并且设置Http代理模式为PAC模式.<br>
+若有些网站不能上则选择  全局模式<br>
+（用完改回PAC）<br>
+Enjoy it!!!<br>
+全局模式：所有流量走代理<br>
+PAC模式：google，YouTube等黑名单的流量走代理，其余流量不走代理<br>
+<img src="https://xxiang365.github.io/post-images/1608470175117.png" alt="" loading="lazy"></li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android下载V2rayNG以及导入Vmess链接]]></title>
+        <id>https://xxiang365.github.io/post/android_tool/</id>
+        <link href="https://xxiang365.github.io/post/android_tool/">
+        </link>
+        <updated>2020-11-01T16:09:04.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="step1-下载并安装app">Step1: 下载并安装APP</h1>
+<p>安卓客户端可以使用V2rayNG<br>
+在github网址下载最新release版的安卓安装软件(apk格式的安装包)<br>
+#下载地址：<br>
+<a href="https://github.com/2dust/v2rayNG/releases" title="跳转V2rayNG的github下载网页">Android_V2rayNG github 网址</a></p>
+<h1 id="step2-导入服务端信息">Step2: 导入服务端信息</h1>
+<p><strong>打开app后，点击首页右上角的加号，可以看到有很多种方法导入配置信息，这里主要用到以下两种方法：</strong></p>
+<ul>
+<li>通过导入包含服务器信息的Vmess链接</li>
+<li>通过扫描包含服务端信息的二维码</li>
+</ul>
+<h1 id="step3-设置app">Step3: 设置app</h1>
+<p>导入完成后，还不能立即使用，原因是新版的app有个默认的选项和服务器端不一致，导致无法配置成功<br>
+需要修改一个地方：</p>
+<ul>
+<li>点红框中的按钮<br>
+<img src="https://xxiang365.github.io/post-images/1604248430156.jpeg" alt="" loading="lazy"></li>
+<li>更改红框中的选项false改为true<br>
+<img src="https://xxiang365.github.io/post-images/1604248437282.jpeg" alt="" loading="lazy"></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown基本语法学习]]></title>
+        <id>https://xxiang365.github.io/post/markdown/</id>
+        <link href="https://xxiang365.github.io/post/markdown/">
+        </link>
+        <updated>2020-10-29T16:16:20.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1-简单介绍">1 简单介绍</h1>
+<p>Markdown是一种纯文本格式的标记语言，广泛适用于各种笔记类应用，可以提升文字编辑类的效率</p>
+<hr>
+<h1 id="2-常用到的简单语法">2 常用到的简单语法</h1>
+<hr>
+<h2 id="21-各种级别的标题">2.1 各种级别的标题</h2>
+<p># 这是一级标题<br>
+## 这是二级标题<br>
+### 这是三级标题<br>
+#### 这是四级标题<br>
+##### 这是五级标题<br>
+###### 这是六级标题<br>
+<strong>标准语法一般在#后跟个空格再写文</strong></p>
+<p><strong>效果如下：</strong></p>
+<h1 id="这是一级标题">这是一级标题</h1>
+<h2 id="这是二级标题">这是二级标题</h2>
+<h3 id="这是三级标题">这是三级标题</h3>
+<h4 id="这是四级标题">这是四级标题</h4>
+<h5 id="这是五级标题">这是五级标题</h5>
+<h6 id="这是六级标题">这是六级标题</h6>
+<h2 id="22-列表">2.2 列表</h2>
+<h3 id="221-无序列表">2.2.1 无序列表</h3>
+<p>无序列表用 - + * 任何一种都可以<br>
+- 列表内容<br>
++ 列表内容<br>
+* 列表内容<br>
+<strong>效果如下：</strong></p>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<h3 id="222-有序列表">2.2.2 有序列表</h3>
+<p>数字加点<br>
+\1. 列表内容<br>
+\2. 列表内容<br>
+\3. 列表内容<br>
+<strong>效果如下：</strong></p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<h3 id="223-列表嵌套">2.2.3 列表嵌套</h3>
+<p>上级与下级留三个空格<br>
+- 一级无序列表<br>
+[][][]- 二级无序列表<br>
+[][][][][][]- 三级无序列表<br>
+<strong>效果图：</strong></p>
+<ul>
+<li>一级无序列表
+<ul>
+<li>二级无序列表
+<ul>
+<li>三级无序列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>- 一级无序列表<br>
+[][][]1. 二级有序列表<br>
+<strong>效果图：</strong></p>
+<ul>
+<li>一级无序列表
+<ol>
+<li>二级有序列表</li>
+</ol>
+</li>
+</ul>
+<h2 id="23-引用和网址">2.3 引用和网址</h2>
+<h3 id="231-应用">2.3.1 应用</h3>
+<p>在引用的文字前加&gt;即可，引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>
+&gt; 引用的内容<br>
+&gt; &gt; 重复引用<br>
+<strong>效果图：</strong></p>
+<blockquote>
+<p>引用的内容</p>
+<blockquote>
+<p>重复引用</p>
+</blockquote>
+</blockquote>
+<h3 id="232-网址">2.3.2 网址</h3>
+<p>[超链接名](超链接地址 &quot;超链接title&quot;)<br>
+title可加可不加<br>
+[沙度Talk](blog.shadow.tk &quot;沙度的博客地址&quot;)<br>
+<strong>效果图：</strong><br>
+<a href="blog.shadow.tk" title="沙度的博客地址">沙度Talk</a></p>
+<h2 id="24-代码">2.4 代码</h2>
+<p>单行代码：代码之间分别用一个反引号包起来<br>
+代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行<br>
+` Hello World!`<br>
+<strong>效果图：</strong></p>
+<p><code>Hello world!</code></p>
+<p>```<br>
+\    function fun(){<br>
+\         echo &quot;这是一句非常牛逼的代码&quot;;<br>
+\    }<br>
+\    fun();<br>
+```<br>
+<strong>效果图：</strong></p>
+<pre><code>    function fun(){
+         echo &quot;这是一句非常牛逼的代码&quot;;
+    }
+    fun();
+</code></pre>
+<h2 id="25-图片">2.5 图片</h2>
+<p>![图片alt](图片地址 ''图片title'')<br>
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p>
+<hr>
+<h1 id="3-reference">3 Reference</h1>
+<blockquote>
+<p>简书 https://www.jianshu.com/p/191d1e21f7ed</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOS 下载shadowrocket的方法]]></title>
+        <id>https://xxiang365.github.io/post/ios_download_sdr/</id>
+        <link href="https://xxiang365.github.io/post/ios_download_sdr/">
+        </link>
+        <updated>2020-10-26T13:53:03.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1退出自己的账号">1，退出自己的账号</h1>
+<p>在iphone或者ipad中的app应用商店，也就是app store中点击右上角圆形图标，拉到最下面，看到退出登陆，退出自己的Apple ID<br>
+<img src="https://xxiang365.github.io/post-images/1603720898550.jpg" alt="" loading="lazy"></p>
+<h1 id="2登陆美区账号">2，登陆美区账号</h1>
+<p>这里有一个需要注意的问题就是登陆美区账号时，会被询问是否升级安全设置，一定不能升级，不然会被强制开启二次验证。<br>
+输入美区账户和密码，会看到如图所示的提醒<br>
+<img src="https://xxiang365.github.io/post-images/1603721396076.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721401242.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721415828.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721423976.jpg" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603721433603.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人人都会的博客搭建教程-Gridea]]></title>
+        <id>https://xxiang365.github.io/post/gridea_build/</id>
+        <link href="https://xxiang365.github.io/post/gridea_build/">
+        </link>
+        <updated>2020-10-24T03:56:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>Created: Sep 17, 2020 12:33 AM<br>
+Tags: Blog, Gridea</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Created: Sep 17, 2020 12:33 AM<br>
+Tags: Blog, Gridea</p>
+<!-- more -->
+<h1 id="前言">前言</h1>
+<p>有时候博客不需要一些花里胡哨的东西，最纯粹的博客可以简化为一个创作平台+一个评论系统（可选）。</p>
+<p>Gridea是一种纯静态网站生成工具，非常适合不想麻烦折腾后端服务器，和后期维护的用户，类似的工具有Hugo，Hexo等，可以让注意力更加集中在内容创作上，非常适合我的需求。</p>
+<!-- more -->
+<h1 id="一-准备工作">一、准备工作</h1>
+<ul>
+<li>Github账户，Github注册地址为：</li>
+</ul>
+<p><a href="https://github.com/">Build software better, together</a></p>
+<ul>
+<li>官网下载Gridea安装包，Gridea官网地址为：</li>
+</ul>
+<p><a href="https://gridea.dev/">Gridea | 一个静态博客写作客户端</a></p>
+<ul>
+<li>注册Valine，实现评论功能</li>
+</ul>
+<p><a href="https://valine.js.org/">介绍 | Valine</a></p>
+<ul>
+<li>域名注册（optional）+域名解析（optional）</li>
+</ul>
+<p><a href="https://freenom.com/">Freenom - A Name for Everyone</a></p>
+<p><a href="https://www.cloudflare.com/">Cloudflare - The Web Performance &amp; Security Company | Cloudflare</a></p>
+<!-- more -->
+<h1 id="二-具体操作">二、具体操作</h1>
+<h3 id="1-以github为博客的后端">1, 以Github为博客的“后端”</h3>
+<ul>
+<li>注册自己的github账号，注册成功后，新建仓库，用来存储网站的代码。<br>
+<img src="https://xxiang365.github.io/post-images/1603511927320.png" alt="" loading="lazy"></li>
+<li>申请 Personal access token，这样 Gridea 才能有权限将网站文件推送到你的仓库中。<br>
+<img src="https://xxiang365.github.io/post-images/1603511942590.png" alt="" loading="lazy"><br>
+再依次选择 「Developer settings」→ 「Personal access tokens」→ 「Generate new token」<br>
+<img src="https://xxiang365.github.io/post-images/1603511955847.png" alt="" loading="lazy"></li>
+<li>token 的权限我们只选择 Repo，申请成功，会给你一串数字+字母的信息，这个就是 Token。<br>
+<img src="https://xxiang365.github.io/post-images/1603512035304.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="2以gridea为本地前端简单自由又安全">2，以Gridea为本地前端，简单自由又安全</h3>
+<ul>
+<li>安装好Gridea后，配置 Gridea，来连接 Github<br>
+<img src="https://xxiang365.github.io/post-images/1603512088703.png" alt="" loading="lazy"></li>
+<li>填写上面的信息后，点击 「检测远程连接」 按钮，如果提示 「远程连接成功」 那就ok啦</li>
+</ul>
+<h3 id="3换成自己喜欢的域名optional">3，换成自己喜欢的域名（Optional）</h3>
+<ul>
+<li>由于不是本篇的重点，就简单介绍一下，可以在freenom注册免费域名后，将注册域名的Nameservers设置为Cloudflare的dns解析服务器，需要等待一段时间生效。<br>
+<img src="https://xxiang365.github.io/post-images/1603512111282.png" alt="" loading="lazy"></li>
+<li>在Cloudflare中可以找到注册的域名，在DNS选项中添加一个CNAME解析，Content填写YourUserName.github.io即可。<br>
+<img src="https://xxiang365.github.io/post-images/1603512125341.png" alt="" loading="lazy"></li>
+<li>想要HTTPS访问，需要在Cloudflare和Github中设置SSL<br>
+<img src="https://xxiang365.github.io/post-images/1603512142377.png" alt="" loading="lazy"><br>
+<img src="https://xxiang365.github.io/post-images/1603512156920.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="3valine评论系统">3，Valine评论系统</h3>
+<ul>
+<li>选择官网中的Pure主题（主题自带Valine评论系统前端的，并且可以设置暗色主题）</li>
+</ul>
+<p><a href="https://github.com/imhanjie/gridea-theme-pure">imhanjie/gridea-theme-pure</a></p>
+<ul>
+<li>
+<p>Valine评论系统前端包含在Gridea的主题-自定义配置中，只需要填入APP_ID和APP_KEY即可，APP_ID和APP_KEY是通过Valine云提供的评论后端<br>
+<img src="https://xxiang365.github.io/post-images/1603512172648.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>Valine云提供的评论后端<br>
+<img src="https://xxiang365.github.io/post-images/1603512182462.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>手动在leancloud应用-存储中添加Comment，网友的评论可以在这里管理<br>
+<img src="https://xxiang365.github.io/post-images/1603512201498.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<!-- more -->
+<h1 id="三-参考致谢">三、参考致谢</h1>
+<blockquote>
+<p><a href="https://www.haitao127.com/post/gridea-quick-start/">https://www.haitao127.com/post/gridea-quick-start/</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://kveln.cn/post/qE678A4ce/">https://kveln.cn/post/qE678A4ce/</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://deserts.io/diy-a-comment-system/">https://deserts.io/diy-a-comment-system/</a></p>
+</blockquote>
+]]></content>
+    </entry>
+</feed>
